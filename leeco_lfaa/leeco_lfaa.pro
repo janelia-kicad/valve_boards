@@ -1,4 +1,4 @@
-update=Thu 10 Sep 2015 11:10:04 AM EDT
+update=Thu 10 Sep 2015 02:03:04 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,14 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/polidorop/git/kicad/kicad-libraries/components
+LibName31=leeco_lfaa
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

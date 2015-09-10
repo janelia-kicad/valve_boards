@@ -1,0 +1,155 @@
+
+(session leeco_lfaa.ses
+  (base_design leeco_lfaa.dsn)
+  (placement
+    (resolution um 10)
+    (component leeco_lfaa:HEADER_02x04
+      (place P1 1803400 -838200 front 90)
+    )
+    (component leeco_lfaa:LEECO_LFAA
+      (place S4 1066800 -762000 front 0)
+      (place S3 1270000 -762000 front 0)
+      (place S2 1473200 -762000 front 0)
+      (place S1 1676400 -762000 front 0)
+    )
+    (component leeco_lfaa:MOUNTING_HOLE
+      (place MH1 914400 -635000 front 0)
+      (place MH2 1828800 -635000 front 0)
+      (place MH3 914400 -1041400 front 0)
+      (place MH4 1828800 -1041400 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "0.201509091501+6172~30~ubuntu14.04.1-product")
+    )
+    (library_out 
+      (padstack "Via[0-1]_600:400_um"
+        (shape
+          (circle F.Cu 6000 0 0)
+        )
+        (shape
+          (circle B.Cu 6000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_889:635_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net VAA
+        (wire
+          (path B.Cu 8128
+            1790700 -825500
+            1790700 -800100
+          )
+        )
+        (wire
+          (path B.Cu 8128
+            1790700 -850900
+            1790700 -825500
+          )
+        )
+        (wire
+          (path B.Cu 8128
+            1790700 -876300
+            1790700 -850900
+          )
+        )
+        (wire
+          (path B.Cu 8128
+            1435100 -762000
+            1462648 -789548
+            1610752 -789548
+            1638300 -762000
+          )
+        )
+        (wire
+          (path B.Cu 8128
+            1231900 -762000
+            1258996 -734904
+            1408004 -734904
+            1435100 -762000
+          )
+        )
+        (wire
+          (path B.Cu 8128
+            1231900 -762000
+            1204938 -735038
+            1055662 -735038
+            1028700 -762000
+          )
+        )
+        (wire
+          (path F.Cu 8128
+            1638300 -762000
+            1676400 -800100
+            1790700 -800100
+          )
+        )
+      )
+      (net /OUT0
+        (wire
+          (path B.Cu 8128
+            1714500 -762000
+            1792735 -762000
+            1816100 -785365
+          )
+        )
+        (wire
+          (path B.Cu 8128
+            1816100 -800100
+            1816100 -785365
+          )
+        )
+      )
+      (net /OUT1
+        (wire
+          (path B.Cu 8128
+            1511300 -762000
+            1538685 -734615
+            1781039 -734615
+            1836032 -789608
+            1836032 -806301
+            1816833 -825500
+            1816100 -825500
+          )
+        )
+      )
+      (net /OUT2
+        (wire
+          (path B.Cu 8128
+            1308100 -762000
+            1437136 -891036
+            1827343 -891036
+            1835975 -882404
+            1835975 -869638
+            1817237 -850900
+            1816100 -850900
+          )
+        )
+      )
+      (net /OUT3
+        (wire
+          (path F.Cu 8128
+            1104900 -762000
+            1234470 -891570
+            1800830 -891570
+            1816100 -876300
+          )
+        )
+      )
+    )
+  )
+)

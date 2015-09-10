@@ -1,0 +1,3 @@
+Item,Reference(s),Value,Quantity,Description,PartNumber,Vendor
+1,P1,HEADER_02X04,1,CONN HEADER 8POS 2.54,732-5395-ND,digikey
+2,S1 S2 S3 S4,LEECO_LFAA,4,CONN RECEPT PIN .032-.046in .240in,ED1013-ND,digikey

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/polidorop/git/idf/valve_boards/leeco_lfaa/leeco_lfaa.sch</source>
+    <date>Thu 10 Sep 2015 02:13:18 PM EDT</date>
+    <tool>Eeschema 0.201509091501+6172~30~ubuntu14.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>leeco_lfaa</title>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>leeco_lfaa.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>HEADER_02X04</value>
+      <footprint>leeco_lfaa:HEADER_02x04</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">732-5395-ND</field>
+        <field name="Description">CONN HEADER 8POS 2.54</field>
+      </fields>
+      <libsource lib="components" part="HEADER_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1C857</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>LEECO_LFAA</value>
+      <footprint>leeco_lfaa:LEECO_LFAA</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">ED1013-ND</field>
+        <field name="Description">CONN RECEPT PIN .032-.046in .240in</field>
+      </fields>
+      <libsource lib="components" part="LEECO_LFAA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CBA0</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>LEECO_LFAA</value>
+      <footprint>leeco_lfaa:LEECO_LFAA</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">ED1013-ND</field>
+        <field name="Description">CONN RECEPT PIN .032-.046in .240in</field>
+      </fields>
+      <libsource lib="components" part="LEECO_LFAA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CCA2</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>LEECO_LFAA</value>
+      <footprint>leeco_lfaa:LEECO_LFAA</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">ED1013-ND</field>
+        <field name="Description">CONN RECEPT PIN .032-.046in .240in</field>
+      </fields>
+      <libsource lib="components" part="LEECO_LFAA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CCD5</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>LEECO_LFAA</value>
+      <footprint>leeco_lfaa:LEECO_LFAA</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">ED1013-ND</field>
+        <field name="Description">CONN RECEPT PIN .032-.046in .240in</field>
+      </fields>
+      <libsource lib="components" part="LEECO_LFAA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CD07</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MOUNTING_HOLE</value>
+      <footprint>leeco_lfaa:MOUNTING_HOLE</footprint>
+      <libsource lib="leeco_lfaa" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CE8D</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MOUNTING_HOLE</value>
+      <footprint>leeco_lfaa:MOUNTING_HOLE</footprint>
+      <libsource lib="leeco_lfaa" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CF04</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MOUNTING_HOLE</value>
+      <footprint>leeco_lfaa:MOUNTING_HOLE</footprint>
+      <libsource lib="leeco_lfaa" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CF74</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MOUNTING_HOLE</value>
+      <footprint>leeco_lfaa:MOUNTING_HOLE</footprint>
+      <libsource lib="leeco_lfaa" part="MOUNTING_HOLE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F1CFC8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="components" part="HEADER_02X04">
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">HEADER_02X04</field>
+        <field name="Footprint">footprints:HEADER_02x04</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">732-5395-ND</field>
+        <field name="Description">CONN HEADER 8POS 2.54</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="components" part="LEECO_LFAA">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">LEECO_LFAA</field>
+        <field name="Footprint">footprints:LEECO_LFAA</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">ED1013-ND</field>
+        <field name="Description">CONN RECEPT PIN .032-.046in .240in</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="leeco_lfaa" part="MOUNTING_HOLE">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MOUNTING_HOLE</field>
+        <field name="Footprint">leeco_lfaa:MOUNTING_HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="components">
+      <uri>/home/polidorop/git/kicad/kicad-libraries/components.lib</uri>
+    </library>
+    <library logical="leeco_lfaa">
+      <uri>leeco_lfaa.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/OUT3">
+      <node ref="S4" pin="2"/>
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="2" name="/OUT2">
+      <node ref="S3" pin="2"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="3" name="VAA">
+      <node ref="S1" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="S3" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="4" name="/OUT0">
+      <node ref="P1" pin="2"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="5" name="/OUT1">
+      <node ref="S2" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(MH3-Pad1)">
+      <node ref="MH3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(MH4-Pad1)">
+      <node ref="MH4" pin="1"/>
+    </net>
+  </nets>
+</export>
