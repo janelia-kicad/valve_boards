@@ -1,2 +1,6 @@
 Item,Function,Quantity,Description,PartNumber,Vendor
 1,VALVE,4,Lee Interface Fluidic (LFA Series) Solenoid Valves,LFAA2403210H,theleeco
+2,CONNECTORS,1,CONN IDC SKT 16POS W/POL 15 GOLD,AKC16H-ND,digikey
+3,CONNECTORS,2,CONN HEAD 8 POS 2.54 LEVER W/SR,732-5444-ND,digikey
+4,CONNECTORS,1,CBL RIBN 16COND 0.050 MULTI 300ft,MC16M-300-ND,digikey
+
