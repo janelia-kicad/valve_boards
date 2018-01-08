@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name leeco_lfaa)(type Legacy)(uri ${KIPRJMOD}/leeco_lfaa.lib)(options "")(descr ""))
+)
