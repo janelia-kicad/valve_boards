@@ -1,4 +1,4 @@
-update=Thu 10 Sep 2015 02:03:04 PM EDT
+update=Mon 08 Jan 2018 11:28:36 AM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,13 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=../kicad-libraries
-[eeschema/libraries]
-LibName1=power
-LibName2=components
-LibName3=leeco_lfaa
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -42,3 +35,6 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=

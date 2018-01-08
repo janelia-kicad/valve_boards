@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:components
-LIBS:leeco_lfaa
+EESchema Schematic File Version 4
 LIBS:leeco_lfaa-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VAA #PWR2
+L power:VAA #PWR2
 U 1 1 55F1C05C
 P 3500 2700
 F 0 "#PWR2" H 3500 2550 50  0001 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 3500 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2700 3500 3100
+	3500 2700 3500 2800
 Wire Wire Line
 	3500 3100 3600 3100
 Wire Wire Line
@@ -70,7 +39,7 @@ Wire Wire Line
 	3600 2800 3500 2800
 Connection ~ 3500 2800
 $Comp
-L VAA #PWR1
+L power:VAA #PWR1
 U 1 1 55F1C0B2
 P 5050 2050
 F 0 "#PWR1" H 5050 1900 50  0001 C CNN
@@ -83,7 +52,7 @@ $EndComp
 Wire Wire Line
 	5150 3650 5050 3650
 Wire Wire Line
-	5050 3650 5050 2050
+	5050 3650 5050 3150
 Wire Wire Line
 	5150 3150 5050 3150
 Connection ~ 5050 3150
@@ -126,7 +95,7 @@ OUT2
 Text Label 4800 3750 0    60   ~ 0
 OUT3
 $Comp
-L PWR_FLAG #FLG1
+L power:PWR_FLAG #FLG1
 U 1 1 55F1C4E9
 P 3250 2850
 F 0 "#FLG1" H 3250 2945 50  0001 C CNN
@@ -140,7 +109,7 @@ Wire Wire Line
 	3500 2850 3250 2850
 Connection ~ 3500 2850
 $Comp
-L HEADER_02X04 P1
+L leeco_lfaa:HEADER_02X04 P1
 U 1 1 55F1C857
 P 3850 2950
 F 0 "P1" H 3850 3200 50  0000 C CNN
@@ -154,7 +123,7 @@ F 6 "CONN HEADER 8POS 2.54" H 4150 3500 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEECO_LFAA S1
+L leeco_lfaa:LEECO_LFAA S1
 U 1 1 55F1CBA0
 P 5350 2200
 F 0 "S1" H 5350 2350 50  0000 C CNN
@@ -168,7 +137,7 @@ F 6 "CONN RECEPT PIN .032-.046in .240in" H 5650 2650 60  0001 C CNN "Description
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEECO_LFAA S2
+L leeco_lfaa:LEECO_LFAA S2
 U 1 1 55F1CCA2
 P 5350 2700
 F 0 "S2" H 5350 2850 50  0000 C CNN
@@ -182,7 +151,7 @@ F 6 "CONN RECEPT PIN .032-.046in .240in" H 5650 3150 60  0001 C CNN "Description
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEECO_LFAA S3
+L leeco_lfaa:LEECO_LFAA S3
 U 1 1 55F1CCD5
 P 5350 3200
 F 0 "S3" H 5350 3350 50  0000 C CNN
@@ -196,7 +165,7 @@ F 6 "CONN RECEPT PIN .032-.046in .240in" H 5650 3650 60  0001 C CNN "Description
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEECO_LFAA S4
+L leeco_lfaa:LEECO_LFAA S4
 U 1 1 55F1CD07
 P 5350 3700
 F 0 "S4" H 5350 3850 50  0000 C CNN
@@ -210,7 +179,7 @@ F 6 "CONN RECEPT PIN .032-.046in .240in" H 5650 4150 60  0001 C CNN "Description
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE MH1
+L leeco_lfaa:MOUNTING_HOLE MH1
 U 1 1 55F1CE8D
 P 6100 2000
 F 0 "MH1" H 6100 2100 50  0000 C CNN
@@ -221,7 +190,7 @@ F 3 "" H 6100 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE MH2
+L leeco_lfaa:MOUNTING_HOLE MH2
 U 1 1 55F1CF04
 P 6100 2650
 F 0 "MH2" H 6100 2750 50  0000 C CNN
@@ -232,7 +201,7 @@ F 3 "" H 6100 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE MH3
+L leeco_lfaa:MOUNTING_HOLE MH3
 U 1 1 55F1CF74
 P 6100 3300
 F 0 "MH3" H 6100 3400 50  0000 C CNN
@@ -243,7 +212,7 @@ F 3 "" H 6100 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE MH4
+L leeco_lfaa:MOUNTING_HOLE MH4
 U 1 1 55F1CFC8
 P 6100 3950
 F 0 "MH4" H 6100 4050 50  0000 C CNN
@@ -257,4 +226,18 @@ NoConn ~ 5900 2000
 NoConn ~ 5900 2650
 NoConn ~ 5900 3300
 NoConn ~ 5900 3950
+Wire Wire Line
+	3500 3000 3500 3100
+Wire Wire Line
+	3500 2900 3500 3000
+Wire Wire Line
+	3500 2800 3500 2850
+Wire Wire Line
+	5050 3150 5050 2650
+Wire Wire Line
+	5050 2650 5050 2150
+Wire Wire Line
+	5050 2150 5050 2050
+Wire Wire Line
+	3500 2850 3500 2900
 $EndSCHEMATC
