@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name leeco_lfaa)(type KiCad)(uri ${KIPRJMOD}/leeco_lfaa.pretty)(options "")(descr ""))
-  (lib (name footprints)(type KiCad)(uri /home/polidorop/git/kicad/kicad-libraries/footprints.pretty)(options "")(descr ""))
 )
